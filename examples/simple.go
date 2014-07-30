@@ -6,7 +6,7 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/justinas/nosurf"
+	"github.com/paulbellamy/nosurf"
 )
 
 var templateString = `

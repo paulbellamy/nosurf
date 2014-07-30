@@ -1,6 +1,6 @@
 # nosurf
 
-[![Build Status](https://travis-ci.org/justinas/nosurf.svg?branch=master)](https://travis-ci.org/justinas/nosurf)
+[![Build Status](https://travis-ci.org/paulbellamy/nosurf.svg?branch=master)](https://travis-ci.org/paulbellamy/nosurf)
 
 `nosurf` is an HTTP package for Go
 that helps you prevent Cross-Site Request Forgery attacks.
@@ -37,7 +37,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/justinas/nosurf"
+	"github.com/paulbellamy/nosurf"
 	"html/template"
 	"net/http"
 )
@@ -80,13 +80,13 @@ func main() {
 ```
 
 More examples can be found in the 
-[examples/](https://github.com/justinas/nosurf/tree/master/examples/) directory.
+[examples/](https://github.com/paulbellamy/nosurf/tree/master/examples/) directory.
 Feel free to add one for your favorite framework 
 or an unusual setup of the default HTTP tools.
 
 ### API Docs
 
-... are at [GoDoc](http://godoc.org/github.com/justinas/nosurf). No big surprise, right?
+... are at [GoDoc](http://godoc.org/github.com/paulbellamy/nosurf). No big surprise, right?
 
 ### Contributing
 

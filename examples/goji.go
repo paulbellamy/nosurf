@@ -9,7 +9,7 @@ import (
 	"github.com/zenazn/goji"
 	"github.com/zenazn/goji/web"
 
-	"github.com/justinas/nosurf"
+	"github.com/paulbellamy/nosurf"
 )
 
 var templateString = `
